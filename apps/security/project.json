@@ -1,0 +1,30 @@
+{
+	"name": "security",
+	"$schema": "../../node_modules/nx/schemas/project-schema.json",
+	"sourceRoot": "apps/security/src",
+	"projectType": "application",
+	"tags": [],
+	"targets": {
+		"install": {
+			"executor": "@nx/expo:install",
+			"options": {}
+		},
+		"start": {
+			"executor": "@nx/expo:start",
+			"options": {
+				"port": 8081
+			}
+		},
+		"export": {
+			"executor": "@nx/expo:export",
+			"options": {
+				"platform": "all",
+				"outputDir": "dist/apps/security"
+			}
+		},
+		"build": {
+			"executor": "@nx/expo:build",
+			"options": {}
+		}
+	}
+}

@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Security",
-    "slug": "@2code/security",
+    "slug": "security",
     "version": "1.0.0",
     "orientation": "portrait",
     "splash": {
@@ -23,9 +23,10 @@
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png",
       "bundler": "metro"
     },
-    "plugins": []
+    "plugins": [
+      "expo-secure-store"
+    ]
   }
 }
