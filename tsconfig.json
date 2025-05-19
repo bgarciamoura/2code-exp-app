@@ -5,6 +5,9 @@
   "references": [
     {
       "path": "./apps/host"
+    },
+    {
+      "path": "./apps/security"
     }
   ]
 }

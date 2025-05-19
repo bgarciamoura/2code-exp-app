@@ -1,11 +1,9 @@
 import { Text, View } from "react-native";
-import * as SecApp from "@2code/security";
 
 const App = () => {
   return (
     <View>
-      <Text>Welcome to the Host App!</Text>
-      <SecApp />
+      <Text>Welcome to the Security App!</Text>
     </View>
   );
 };
