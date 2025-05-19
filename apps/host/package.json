@@ -2,6 +2,8 @@
   "name": "@2code/host",
   "version": "0.0.1",
   "private": true,
+  "main": "./index.js",
+  "types": "./index.js",
   "nx": {
     "name": "host"
   }

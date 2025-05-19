@@ -26,8 +26,8 @@
       "@2code/host/*": [
         "apps/host/src/app/*"
       ],
-      "@2code/security/*": [
-        "apps/security/src/app/*"
+      "@2code/security": [
+        "apps/security/src/index.ts"
       ]
     }
   }

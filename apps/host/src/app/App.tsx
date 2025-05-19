@@ -1,13 +1,21 @@
-import { Text, View } from "react-native";
-import * as SecApp from "@2code/security";
+import { StyleSheet, Text, View } from "react-native";
+import { Security } from "@2code/security";
 
 const App = () => {
   return (
-    <View>
+    <View style={styles.container}>
       <Text>Welcome to the Host App!</Text>
-      <SecApp />
+      <Security />
     </View>
   );
 };
+
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    justifyContent: "center",
+    alignItems: "center",
+  },
+});
 
 export { App };
